@@ -4,10 +4,12 @@ import java.io.IOException;
 public class Main {
 
     public static void main(String[] args) {
-        String text = "Heute ist ein guter Tag";
-        try(FileWriter fileWriter = new FileWriter("text.txt" )) {
-            fileWriter.write(text);
+        for(String a : args){
+            System.out.println(a);
+        }
+        try(FileWriter fileWriter = new FileWriter(args[0] )) {
 
+            fileWriter.write(args[1]);
             System.out.println("Erfolgreich!");
             fileWriter.close();
         } catch (IOException e) {
