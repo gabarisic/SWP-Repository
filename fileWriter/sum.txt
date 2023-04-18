@@ -1,0 +1,1 @@
+Die Summe der Argumente ist: 18
