@@ -1,0 +1,28 @@
+.b1 {
+  -fx-background:rgb(255,0, 0); /* Now borders look good, but button is still grey*/
+}
+ .b2 {
+  -fx-background: rgb(0, 255, 0); /* Now borders look good, but button is still grey*/
+}
+.b3 {
+  -fx-background: rgb(0, 0, 255); /* Now borders look good, but button is still grey*/
+}
+.b4 {
+  -fx-background: rgb(255, 255, 0); /* Now borders look good, but button is still grey*/
+}
+.b5:pressed {
+  -fx-background: rgb(255, 0, 255); /* Now borders look good, but button is still grey*/
+}
+.b6:pressed {
+  -fx-background: rgb(0, 255, 255); /* Now borders look good, but button is still grey*/
+}
+.b7:pressed {
+  -fx-background: rgb(100, 200, 255); /* Now borders look good, but button is still grey*/
+}
+.b8:pressed{
+  -fx-background: rgb(255, 200, 100); /* Now borders look good, but button is still grey*/
+}
+.b9:pressed {
+  -fx-background: rgb(200, 255, 100); /* Now borders look good, but button is still grey*/
+}
+

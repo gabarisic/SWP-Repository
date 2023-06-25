@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="back" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onKeyPressed="#handleKeyPressed" prefHeight="584.0" prefWidth="794.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="swp.MamaMia.Controller">
+   <children>
+      <Button fx:id="btnDatei" layoutY="1.0" mnemonicParsing="false" onAction="#openFile" prefHeight="26.0" prefWidth="95.0" text="Sprüche" />
+      <Text id="spieler1" fx:id="spieler1" layoutX="112.0" layoutY="154.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spieler 1:" wrappingWidth="204.00000000000006" />
+      <Text fx:id="spieler2" layoutX="501.0" layoutY="146.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Spieler 2:" wrappingWidth="203.99999999999977" />
+      <Button fx:id="start" layoutX="-1.0" layoutY="41.0" mnemonicParsing="false" onAction="#start" prefHeight="26.0" prefWidth="95.0" text="Start" />
+      <Button fx:id="bt1" layoutX="112.0" layoutY="227.0" mnemonicParsing="false" prefHeight="129.0" prefWidth="204.0" text="Spieler 1:" />
+      <Button fx:id="bt2" layoutX="501.0" layoutY="227.0" mnemonicParsing="false" prefHeight="129.0" prefWidth="204.0" text="Spieler 2:" />
+      <Text layoutX="112.0" layoutY="385.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press W" wrappingWidth="65.84765625" />
+      <Text layoutX="501.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press U" wrappingWidth="65.84765625" />
+      <Text fx:id="l1" layoutX="270.0" layoutY="25.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="253.33673095703125" />
+      <Text layoutX="356.0" layoutY="497.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Press S to start " wrappingWidth="81.84771728515625" />
+   </children>
+</AnchorPane>
